@@ -1,0 +1,43 @@
+.grayscale {
+    transition: 1s;
+    filter: grayscale(1);
+    transform: scale(1.0)
+}
+
+.grayscale:hover {
+    transition: 1s;
+    filter: grayscale(0);
+    transform: scale(1.2)
+}
+
+ul {
+    list-style: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.item {
+    flex: 0 0 10%; 
+}
+  
+.carousel-item .img-fluid {
+    width:100%;
+}
+  
+.carousel-item a {
+    display: block;
+    width:100%;
+}
+
+@media (max-width: 556px) {
+    html { font-size: 0.55rem; }
+}
+@media (min-width: 768px) {
+    html { font-size: 1rem; }
+}
+
+.grayscalecarousel {
+    filter: grayscale(0.7);
+}
